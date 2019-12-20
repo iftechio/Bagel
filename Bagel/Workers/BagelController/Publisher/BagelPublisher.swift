@@ -57,7 +57,7 @@ class BagelPublisher: NSObject {
     func parseBody(data: Data) {
         
         let jsonDecoder = JSONDecoder()
-        jsonDecoder.dateDecodingStrategy = .secondsSince1970
+//        jsonDecoder.dateDecodingStrategy = .secondsSince1970
         
         do {
             

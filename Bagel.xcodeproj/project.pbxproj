@@ -828,16 +828,12 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Bagel/Pods-Bagel-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
-				"${BUILT_PRODUCTS_DIR}/JKAssert/JKAssert.framework",
-				"${BUILT_PRODUCTS_DIR}/JKLogger/JKLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/macOSThemeKit/macOSThemeKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highlightr.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKAssert.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/macOSThemeKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1085,7 +1081,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 963CXLUL5M;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -1104,7 +1100,7 @@
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 963CXLUL5M;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;

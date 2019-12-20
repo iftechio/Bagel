@@ -16,7 +16,7 @@ class RequestBodyViewModel: DataViewModel {
         
         self.dataRepresentation = nil
         
-        if let data = self.packet?.requestInfo?.requestBody?.base64Data {
+        if let data = self.packet?.requestInfo?.requestBody {
             
             self.dataRepresentation = DataRepresentationParser.parse(data: data)
         }

@@ -11,6 +11,5 @@ target 'Bagel' do
   pod 'CocoaAsyncSocket'
   pod 'macOSThemeKit', '~> 1.2.0'
   pod 'Highlightr'
-  pod 'JKLogger/Core', :git => 'git@github.com:iftechio/JKLogger.git', :branch => 'feat/macDebugger'
   
 end

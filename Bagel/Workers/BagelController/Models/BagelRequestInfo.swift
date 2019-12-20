@@ -21,11 +21,11 @@ class BagelRequestInfo: Codable {
 
     var url: String?
     var requestHeaders: [String: String]?
-    var requestBody: String?
+    var requestBody: Data?
     var requestMethod: RequestMethod?
     
     var responseHeaders: [String: String]?
-    var responseData: String?
+    var responseData: Data?
     
     var statusCode: String?
     

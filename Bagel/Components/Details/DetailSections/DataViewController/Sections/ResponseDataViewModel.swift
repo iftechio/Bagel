@@ -16,7 +16,8 @@ class ResponseDataViewModel: DataViewModel {
         
         self.dataRepresentation = nil
         
-        if let data = self.packet?.requestInfo?.responseData?.base64Data {
+        if let data = self.packet?.requestInfo?.responseData
+        {
             
             self.dataRepresentation = DataRepresentationParser.parse(data: data)
         }

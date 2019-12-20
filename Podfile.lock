@@ -1,15 +1,11 @@
 PODS:
   - CocoaAsyncSocket (7.6.3)
   - Highlightr (2.1.0)
-  - JKAssert (1.0.4)
-  - JKLogger/Core (1.1.0):
-    - JKAssert
   - macOSThemeKit (1.2.3)
 
 DEPENDENCIES:
   - CocoaAsyncSocket
   - Highlightr
-  - "JKLogger/Core (from `git@github.com:iftechio/JKLogger.git`, branch `feat/macDebugger`)"
   - macOSThemeKit (~> 1.2.0)
 
 SPEC REPOS:
@@ -17,26 +13,12 @@ SPEC REPOS:
     - CocoaAsyncSocket
     - Highlightr
     - macOSThemeKit
-  https://github.com/iftechio/JKPodSpecs:
-    - JKAssert
-
-EXTERNAL SOURCES:
-  JKLogger:
-    :branch: feat/macDebugger
-    :git: "git@github.com:iftechio/JKLogger.git"
-
-CHECKOUT OPTIONS:
-  JKLogger:
-    :commit: 7cb2519ba9ccd03a2a92f035e6b73d7f7858a77b
-    :git: "git@github.com:iftechio/JKLogger.git"
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
-  JKAssert: b9d315fe82d5a4cb54d2a486af78717ae8f9051c
-  JKLogger: 7ff601321fc2cd972f86cbc79c894ddb4fab6005
   macOSThemeKit: 651af12838675beac5547687226a270c294f8f84
 
-PODFILE CHECKSUM: f594bda76d3edf389aa9eec25518c888ce9a3c82
+PODFILE CHECKSUM: ed6b1ea114260a9be112ee9fd99264bc839ea68d
 
 COCOAPODS: 1.8.4
