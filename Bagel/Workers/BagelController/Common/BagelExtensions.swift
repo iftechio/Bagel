@@ -41,7 +41,7 @@ extension Dictionary where Key == String, Value == String {
         
         var array = [KeyValue]()
         
-        for key in self.keys {
+        for key in self.keys.sorted(by: <) {
             array.append(KeyValue(key: key, value: self[key]))
         }
         
