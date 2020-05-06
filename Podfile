@@ -6,6 +6,7 @@ source 'https://github.com/CocoaPods/Specs'
 
 target 'Bagel' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  inhibit_all_warnings!
   use_frameworks!
 
   pod 'CocoaAsyncSocket'
